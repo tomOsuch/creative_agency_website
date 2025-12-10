@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&family=Inconsolata:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&family=Inconsolata:wght@400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -33,9 +36,135 @@
     <header class="splash">
         <div class="splash-inner">
             <h1 class="page-title">Hello, Creative Agency</h1>
-            <h2 class="page-subtitle">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h2>
+            <h2 class="page-subtitle">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum."</h2>
             <a href="#" class="btn btn-one">See our work</a>
         </div>
     </header>
+    <!-- Section work -->
+    <section class="container">
+        <div class="services-container">
+            <h1 class="main-title">Our sevices</h1>
+            <div class="columns-wrapper">
+                <div class="service-column">
+                    <span class="background-number design-color">1</span>
+                    <div class="column-heading-wrapper">
+                        <h2>design</h2>
+                    </div>
+                    <p class="column-sub-heading">Curabitur ornare.</p>
+                    <p class="column-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn btn-two">Read more</a>
+                </div>
+                <div class="service-column">
+                    <span class="background-number code-color">2</span>
+                    <div class="column-heading-wrapper">
+                        <h2>code</h2>
+                    </div>
+                    <p class="column-sub-heading">Curabitur ornare.</p>
+                    <p class="column-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn btn-three">Read more</a>
+                </div>
+                <div class="service-column">
+                    <span class="background-number marketing-color">3</span>
+                    <div class="column-heading-wrapper">
+                        <h2>marketing</h2>
+                    </div>
+                    <p class="column-sub-heading">Curabitur ornare.</p>
+                    <p class="column-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn btn-four">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section work -->
+    <section class="container">
+        <div class="work-showcase">
+            <h2 class="main-title">our work</h2>
+            <ul>
+                <li class="work right">
+                    <div class="work-image">
+                        <img src="https://i.postimg.cc/7hCV1Bmv/pexels-dominikagregus-29229938.jpg" alt="Vertigo Image">
+                    </div>
+                    <div class="work-text">
+                        <h2>vertigo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit.</p>
+                        <a href="#" class="read-more-btn">read more</a>
+                    </div>
+                </li>
+                <li class="work right">
+                    <div class="work-image">
+                        <img src="https://i.postimg.cc/V6t9dS6m/pexels-zaur-hajizada-2128548990-34535726.jpg"
+                            alt="Vertigo Image">
+                    </div>
+                    <div class="work-text">
+                        <h2>vertigo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit.</p>
+                        <a href="#" class="read-more-btn">read more</a>
+                    </div>
+                </li>
+                <li class="work right">
+                    <div class="work-image">
+                        <img src="https://i.postimg.cc/nVvYxQgB/pexels-cathy-b-748462208-34160470.jpg"
+                            alt="Vertigo Image">
+                    </div>
+                    <div class="work-text">
+                        <h2>vertigo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit.</p>
+                        <a href="#" class="read-more-btn">read more</a>
+                    </div>
+                </li>
+                <li class="work right">
+                    <div class="work-image">
+                        <img src="https://i.postimg.cc/4x3zp2dw/pexels-damir-34740912.jpg" alt="Vertigo Image">
+                    </div>
+                    <div class="work-text">
+                        <h2>vertigo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit.</p>
+                        <a href="#" class="read-more-btn">read more</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h2 class="main-title">Contact us</h2>
+            <form action="#" method="post" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address">
+                <textarea name="subject" rows="1" placeholder="Subject" required></textarea>
+                <textarea name="message" rows="5" placeholder="Type your message here" required></textarea>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+        <div class="form-response-message">
+            <h2>sales specialist</h2>
+            <p>Jan Kowalski</p>
+            <h2>address</h2>
+            <p>229 Main Street, Cityville</p>
+            <p>Colorado</p>
+            <p>13845 New York</p>
+            <h2>phone</h2>
+            <p>(123) 456-7890</p>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="white-strip">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></i>Facebook</a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fa-brands fa-behance"></i>Behance</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
